@@ -1,0 +1,182 @@
+.App {
+  margin: 0;
+  padding-top: 30px;
+  background-color: #636ef9;
+  overflow-x: hidden; 
+}
+
+.site_title {
+  font-size: 35px;
+}
+
+.burgerMenu {
+  visibility: hidden;
+}
+
+.FondBackground {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  width:100vw;
+  height: 900px;
+  padding-top: 50px;
+}
+
+.banniere-menu {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-start;
+  padding-left: 10%;
+  color:white;
+}
+
+.butonburger {
+  display: none;
+}
+
+.fa-bars {
+  visibility: hidden;
+}
+
+.profil-li {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.img-profil {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.Menu-li {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: flex-end;
+  padding-right: 20%;
+  color: white;
+  height: 100px;
+  width: 100%;
+}
+
+.li-display {
+  padding: 2%;
+  margin: 10px;
+  border-radius: 30px;
+  min-width: 50px;
+}
+
+.hr-style {
+  height: 15px;
+  width: 100px;
+  background-color: #63EAEE;
+  margin: 0;
+  padding: 0;
+}
+
+.text-left {
+  width: 50%;
+  font-size: 30px;
+  padding-left: 10%;
+  color: white;
+  text-align: start;
+}
+
+.title-style {
+  font-size: 100px;
+}
+
+.butonIcon {
+  background-color: #7876FC;
+  min-width: 200px;
+}
+
+.logo-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.LogoDownload {
+  width: 250px;
+  margin: 20px;
+  margin-left: 0;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 814px) {
+  .FondBackground {
+    flex-direction: column-reverse;
+    height: 100%;
+  }
+  .burgerMenu {
+    visibility: visible;
+    text-decoration: none;
+    padding-top: 50px;
+    text-align: start;
+    padding-left: 50px;
+  }
+  .link-style {
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding-left: 10%;
+  }
+  .banniere-menu {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 10%;
+    color:white;
+  }
+  .bm-item-list {
+    padding-left: 30%;
+    margin: 3%;
+    border-color: white;
+  }
+  .butonburger {
+    display: flex;
+    width: 50%;
+    text-align: end;
+    flex-direction: column;
+    padding-top: 8%;
+  }
+  .LogoDownload {
+    width: 150px;
+    margin-left: 0;
+    margin-top: 50px;
+  }
+  .logo-display {
+    justify-content: center;
+  }
+  .text-left {
+    font-size: 15px;
+    width: 100%;
+    padding-left: 1%;
+  }
+  .title-style {
+    font-size: 60px;
+  }
+  .Menu-li {
+    display: none;
+  }
+  .img-principal {
+    height: 400px;
+  }
+  .fa-bars {
+    visibility: visible;
+    font-size: 40px;
+  }
+  .miniMenu3Close {
+    display: none;
+  }
+  .miniMenu3Open {
+    display: flex;
+    flex-direction: column;
+  }
+}
